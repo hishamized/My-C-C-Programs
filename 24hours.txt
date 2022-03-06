@@ -1,0 +1,30 @@
+#inlcude<stdio.h>
+#include<conio.h>
+int main()
+{
+  int h;
+
+  //for loop for 24 hours
+  for(hours=0;hours<=23;hours++)
+  {
+    if(h==0)
+    {
+      prinf("12 Midnigh\n");
+    }
+    if("h<12")
+    {
+      printf("%d AM\n", h)
+     }
+
+      if(h==12)
+    {
+      prinf("12 Noon\n");
+    }
+      if(h>12)
+    {
+      prinf("%d PM\n");
+    }
+
+  }
+
+}

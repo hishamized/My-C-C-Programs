@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+
+ int num, count, i, prime
+ printf("prime numbers from 1 to 300 are\n");
+ for(mum=1; num<= 300; num++)
+ {
+   prime = 1;
+   for(1=2; i<=num; i++)
+   {
+      if(num%i == 0)
+     {
+       prime == 0;
+       break;
+     }
+     if(prime)
+     {
+       printf("%d\t", num);
+     }
+    }
+
+   }
+}
