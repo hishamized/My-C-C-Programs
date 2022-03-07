@@ -1,7 +1,5 @@
 #include<stdio.h>
-#include<string.h>
-int main()
-{
+int main(){
     int id;
     char name[20];
     printf("==========INFORMATION==========");
@@ -9,7 +7,8 @@ int main()
     printf("   Input ID[4]   =   ", id);
     scanf("%d", &id);
     printf("      Input Name   =   ", name);
-    scanf("%s", &name);
+    getchar();
+    fgets(name, 20, stdin);
     printf("================================\n");
     printf("\n");
     printf("------ID------NAME------ \n");
@@ -19,6 +18,5 @@ int main()
             printf("\n");
     printf("================================\n");
     return 0;
-
 }
 
